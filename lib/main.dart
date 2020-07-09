@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:scanQR/src/pages/data_page.dart';
 import 'package:scanQR/src/pages/home_page.dart';
 
 void main() {
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       initialRoute: 'home',
       routes: {
-        'home' : (_) => HomePage()
+        'home' : (_) => HomePage(),
+        'Data' : (_) => Data()
       },
     );
   }
